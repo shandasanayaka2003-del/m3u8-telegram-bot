@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-BOT_TOKEN = os.environ.get("8866986429:AAHQmPxXdN9MElFMc2TUsNLkaSbmQus-SCA")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 M3U8 Downloader Bot වෙත සාදරයෙන් පිළිගනිමු! Link එක එවන්න.")
